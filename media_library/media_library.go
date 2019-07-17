@@ -11,16 +11,16 @@ import (
 	"strings"
 
 	"github.com/jinzhu/gorm"
-	"github.com/qor/admin"
-	"github.com/qor/media"
-	"github.com/qor/media/oss"
-	"github.com/qor/qor"
-	"github.com/qor/qor/resource"
-	"github.com/qor/qor/utils"
+	"github.com/kisrobot/admin"
+	"github.com/kisrobot/media"
+	"github.com/kisrobot/media/oss"
+	"github.com/kisrobot/qor"
+	"github.com/kisrobot/qor/resource"
+	"github.com/kisrobot/qor/utils"
 )
 
 func init() {
-	admin.RegisterViewPath("github.com/qor/media/media_library/views")
+	admin.RegisterViewPath("github.com/kisrobot/media/media_library/views")
 }
 
 type MediaLibraryInterface interface {

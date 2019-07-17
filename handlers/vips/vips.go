@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/qor/media"
+	"github.com/kisrobot/media"
 	"gopkg.in/h2non/bimg.v1"
 )
 
